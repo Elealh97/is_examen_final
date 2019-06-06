@@ -4,7 +4,9 @@ import java.util.Arrays;
 
 public class PascalTriangle {
 
+
     public String build(int levels) {
+
         StringBuilder stringBuilder = new StringBuilder();
         
         if (levels <= 0) {            
